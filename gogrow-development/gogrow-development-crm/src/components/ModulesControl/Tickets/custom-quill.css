@@ -1,0 +1,40 @@
+#toolbar {
+  display: flex;
+  align-items: center;
+  border-left: 0px solid #ccc !important;
+  border-right: 0px;
+  margin-bottom: 8px;
+  padding: 5px;
+}
+
+.ql-size {
+  margin-right: 8px;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: #ccc;
+  margin: 0 8px;
+}
+
+button.ql-bold,
+button.ql-italic,
+button.ql-underline,
+button.ql-align,
+button.ql-clean {
+  margin-right: 8px;
+}
+
+button.ql-clean {
+  margin-left: 8px;
+}
+
+.ql-container.ql-snow {
+  border-radius: 18px;
+}
+
+.ql-editor {
+  /* padding-bottom: 45px; */
+  height: 80%;
+}
